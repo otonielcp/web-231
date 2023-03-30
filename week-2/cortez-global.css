@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.return-home {
+  color: #4f3674;
+
+  text-decoration: none;
+}
+
+.return-home:hover {
+  background-color: #d6a800;
+
+  color: #4f3674;
+}
+
+.return-home:visited {
+  color: #3c275a;
+}
+
+.app-header {
+  text-align: center;
+
+  font-weight: 400;
+}
+
+.drop-down-menu {
+  padding: 12px 20px;
+
+  margin: 8px 0;
+
+  display: inline-block;
+
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+
+  box-sizing: border-box;
+}
+
+.card-title {
+  padding: 5px;
+}
