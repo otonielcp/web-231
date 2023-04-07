@@ -1,35 +1,45 @@
-/* 
+<!-- 
 Title: Cortez-temp-conversion.html
 Author: Otoniel Cortez
 Date: 4/6/2023
-*/
+ -->
 
-
+<!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="cortez-temp-conversion.css"></link>
-</head>
-<body>
-<h1 align="center">Welcome to the Temperature Conversion App!</h1>
-<center>
-<div class="card">
-	<h1 align="center" class="card-title">Fahrenheit to Celsius Converter</h1>
-	<lable>Fahrenheit value:</lable> <input id="ftemp" class="form-field" type="text" value=""><br>
-	<br>
-	<button class="btn" onclick="calcCelsius();">Convert Temperature</button>
-	<br><br>
-</div>
-<br>
-<div class="card">
-	<h1 align="center" class="card-title">Conversion Results</h1>
-	<h2 align="center" id="ctemp"></h2>
-</div>
-<div class="return-home">
-<a href="/index.html">Return</a>
-</div>
-</center>
-<script type="text/javascript" src="cortez-temp-conversion.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-</body>
+    <!-- linked css file -->
+    <link rel="stylesheet" href="cortez-temp-conversion.css" />
+    <title>Temperature Conversion</title>
+  </head>
+
+  <body>
+    <h1 align="center">Welcome to the Temperature Conversion App!</h1>
+    <center>
+      <div class="card">
+        <h1 align="center" class="card-title">
+          Fahrenheit to Celsius Converter
+        </h1>
+        <lable>Fahrenheit value:</lable>
+        <input id="ftemp" class="form-field" type="text" value="" /><br />
+        <br />
+        <button class="btn" onclick="calcCelsius();">
+          Convert Temperature
+        </button>
+        <br /><br />
+      </div>
+      <br />
+      <div class="card">
+        <h1 align="center" class="card-title">Conversion Results</h1>
+        <h2 align="center" id="ctemp"></h2>
+      </div>
+      <div class="return-home">
+        <a href="/index.html">Return</a>
+      </div>
+    </center>
+    <script type="text/javascript" src="cortez-temp-conversion.js"></script>
+  </body>
 </html>
