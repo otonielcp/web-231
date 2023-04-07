@@ -1,3 +1,11 @@
+/** 
+Title: Cortez-favorites.js
+Author: Otoniel Cortez
+Date: 4/6/2023
+
+
+*/
+
 // storing 4 buttons in a variable to add event listeners
 const sport = document.getElementById("sport");
 const book = document.getElementById("book");

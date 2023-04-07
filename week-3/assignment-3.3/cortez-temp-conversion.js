@@ -1,3 +1,9 @@
+/* 
+Title: Cortez-temp-conversion.js
+Author: Otoniel Cortez
+Date: 4/6/2023
+*/
+
 function calcCelsius()
 {
 	const fahrenheit=document.getElementById("ftemp").value;
