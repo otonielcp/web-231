@@ -5,7 +5,7 @@
 
 // Generate a random number between 1 and 100
 function generateRndNum() {
-    return Math.floor(Math.random() * 100) + 1;
+    return Math.floor(Math.random() * 10) + 1;
   }
   
   // Assign the random number to a constant variable
