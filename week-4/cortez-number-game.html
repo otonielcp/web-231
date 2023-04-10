@@ -1,0 +1,43 @@
+<!-- 
+    Title: cortez-number-game.html
+    Author: Otoniel Cortez
+    Date: 4/9/2023
+    Description: number game assignment 
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="cortez-number-game.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-title">Number Game</div>
+        <div class="card-content">
+          <form class="form">
+            <div class="full-width">
+              <label for="guessInput">Enter a number between 1 and 100:</label>
+            </div>
+            <div class="full-width">
+              <input type="text" id="guessInput" class="form-field">
+            </div>
+            <div class="full-width">
+              <button type="button" id="submitBtn" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Result</div>
+        <div id="resultMsg" class="card-content"></div>
+      </div>
+      <a href="/index.html" class="return-home">Return Home</a>
+
+  <script src="cortez-number-game.js"></script>
+</body>
+</html>
